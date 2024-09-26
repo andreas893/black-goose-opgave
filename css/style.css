@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: antiquewhite;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+:root {
+    --primary-color:rgb(255, 51, 0);
+    --secondary-color:black;
+}
+
+h1{
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+h3 {
+color: var(--primary-color);
+margin-bottom: 0.8rem;
+margin-top: 0.8rem;
+}
+
+.list {
+    list-style-type: none;
+}
+
+article{
+    margin-bottom: 0.5rem;
+}
+
